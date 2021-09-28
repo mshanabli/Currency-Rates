@@ -1,8 +1,8 @@
 import { createTheme } from '@material-ui/core/styles';
 
 const colors = {
-  primary: '#1e4225',
-  secondary: '#b0571c',
+  primary: '#173945',
+  secondary: '#ffb94f',
 };
 
 const fonts = {
