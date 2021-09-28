@@ -1,3 +1,11 @@
 import React from 'react';
+import { ThemeProvider } from '@material-ui/core/styles';
+import Baseline from '@material-ui/core/ScopedCssBaseline';
 
-export const App = () => <h1>App</h1>;
+import { theme } from './theme';
+
+export const App = () => (
+  <ThemeProvider theme={theme}>
+    <Baseline>App</Baseline>
+  </ThemeProvider>
+);
