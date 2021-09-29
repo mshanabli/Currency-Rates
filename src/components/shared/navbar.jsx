@@ -12,7 +12,8 @@ const useStyles = makeStyles(theme => ({
   },
   brand: {
     color: theme.palette.secondary.dark,
-    fontSize: '1.5rem',
+    fontFamily: '"Playball", cursive',
+    fontSize: '2rem',
     fontWeight: theme.typography.fontWeightMedium,
     marginLeft: '20px',
     textDecoration: 'none',
